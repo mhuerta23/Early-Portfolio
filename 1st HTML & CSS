@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Manny Dev</title>
+	<link href="pretty_port.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body><center>
+	<h1>Manuel Huerta</h1>
+	<img class="img-circle" src=" Profile_pic.jpg" alt="Profile Picture" style="height:200px">
+	<h2>Web Developer</h2>
+	
+	
+	<h2>About Me</h2>
+	<p>Hi my name is Manuel Huerta a.k.a. Manny, and I'm a student at Wyncode Academy. I was born in Caracas, Venezuela but I was raised in South Florida since I was 5 years old. My previous work experience includes retail at Gamestop and I also have a lot of experience in education. My first teaching job was as a subsitute teacher at Renaissance Charter School. After that i got a position at Nova Southeastern University in their preschool. At Baudhuin Preschool we did reseach and development for children living with autism.</p>
+
+	<p>I am currently at Wyncode Academy learning the art of computer languages; they include Ruby laguage, Rails, JavaScript, HTML, and CSS. When I finish my cohort at Wyncode I want to get a job in the web developer industry.</p>
+
+	<h2>Social Links & Contacts</h2>
+
+	<p><a href="https://www.linkedin.com/in/mhuerta23"><img class="space"src="linkedin.png" alt="Linkedin Link" style="height:80px"></a>
+	<a href="https://github.com/mhuerta23"><img class="space" src="github.gif" alt="GitHub Link" style="height:80px"></a>
+	<a href="https://twitter.com/Mhuerta2303"><img class="space"src="twitter.png" alt="Twitter Link" style="height:80px"></a>
+	<p><a href="mailto:huerta.a.manuel@gmail.com"><button class="button button2">EMAIL ME</button></a></p>
+	<p>Call ME: (954)670-4118</p>
+	
+
+</center></body>
+
+
+	</html> 
+	
+	
+##################################################CSS########################################
+
+
+
+body {
+    background-image: url("pix.jpg"); background-size: 1285px 850px
+}
+.button {
+    background-color: purple; 
+    border: none;
+    color: white;
+    padding: 13px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {border-radius: 8px;}
+.img-circle {
+    border-radius: 50%;
+}
+
+h1 {
+	color: white; font-family: 'Poiret One', cursive; font-size: 40px
+}
+
+h2 {
+	color:white; font-family: 'Poiret One', cursive;
+}
+
+p {
+	color:white;
+	font-family: 'Play', sans-serif;  
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.space{
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+	
+	
+	

@@ -3,6 +3,7 @@
 
 <head>
 	<title>Manny Dev</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="pretty_port.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
@@ -16,9 +17,9 @@
 	
 	
 	<h2>About Me</h2>
-	<p>Hi my name is Manuel Huerta a.k.a. Manny, and I'm a student at Wyncode Academy. I was born in Caracas, Venezuela but I was raised in South Florida since I was 5 years old. My previous work experience includes retail at Gamestop and I also have a lot of experience in education. My first teaching job was as a subsitute teacher at Renaissance Charter School. After that i got a position at Nova Southeastern University in their preschool. At Baudhuin Preschool we did reseach and development for children living with autism.</p>
+	<p>Hi my name is Manuel Huerta a.k.a. Manny, I'm a student at Wyncode Academy and computer development is my passion. I was born in Caracas, Venezuela but was raised in South Florida since the age of five. I have loved technology all my life. Since my first Nintendo to my first computer, tech is my first love and something that I want to make my career. My previous work experience includes retail at Gamestop and I also have a lot of experience in education. My first teaching job was as a subsitute teacher at Renaissance Charter School. After that i got a position at Nova Southeastern University in their preschool. At Baudhuin Preschool we did reseach and development for children living with autism.</p>
 
-	<p>I am currently at Wyncode Academy learning the art of computer languages; they include Ruby laguage, Rails, JavaScript, HTML, and CSS. When I finish my cohort at Wyncode I want to get a job in the web developer industry.</p>
+	<p>I am currently at Wyncode Academy learning the art of computer languages; they include Ruby laguage, Rails, JavaScript, HTML, and CSS. Being in Wyncode has taught me more then I ever knew about computers and how they work. When I finish my cohort at Wyncode I want to get a job in the web developer industry.</p>
 
 	<h2>Social Links &amp; Contacts</h2>
 
@@ -32,7 +33,7 @@
 		<a href="mailto:huerta.a.manuel@gmail.com"></a><button class="button" style="vertical-align:middle">EMAIL ME<span class="fa fa-angle-double-right"></span></button>
 	</div>
 	
-	<p>Call ME: (954)670-4118</p>
+	<p>Call or Text: (954)670-4118</p>
 	
 
 </center></body>

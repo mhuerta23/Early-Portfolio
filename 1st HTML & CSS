@@ -3,6 +3,7 @@
 
 <head>
 	<title>Manny Dev</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="pretty_port.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
@@ -19,12 +20,18 @@
 
 	<p>I am currently at Wyncode Academy learning the art of computer languages; they include Ruby laguage, Rails, JavaScript, HTML, and CSS. When I finish my cohort at Wyncode I want to get a job in the web developer industry.</p>
 
-	<h2>Social Links & Contacts</h2>
+	<h2>Social Links &amp; Contacts</h2>
 
-	<p><a href="https://www.linkedin.com/in/mhuerta23"><img class="space"src="linkedin.png" alt="Linkedin Link" style="height:80px"></a>
-	<a href="https://github.com/mhuerta23"><img class="space" src="github.gif" alt="GitHub Link" style="height:80px"></a>
-	<a href="https://twitter.com/Mhuerta2303"><img class="space"src="twitter.png" alt="Twitter Link" style="height:80px"></a>
-	<p><a href="mailto:huerta.a.manuel@gmail.com"><button class="button button2">EMAIL ME</button></a></p>
+	<a href="https://www.linkedin.com/in/mhuerta23"><i class="hover-icon fa fa-linkedin-square"></i></a>
+	
+	<a href="https://github.com/mhuerta23"><i class="image-space fa fa-github"></i></a>
+	
+	<a href="https://twitter.com/Mhuerta2303"><i class="image-space fa fa-twitter-square"></i></a>
+	
+	<div class="email-button">
+		<a href="mailto:huerta.a.manuel@gmail.com"></a><button class="button" style="vertical-align:middle">EMAIL ME<span class="fa fa-angle-double-right"></span></button>
+	</div>
+	
 	<p>Call ME: (954)670-4118</p>
 	
 
@@ -36,34 +43,27 @@
 	
 ##################################################CSS########################################
 
-
-
 body {
-    background-image: url("pix.jpg"); background-size: 1285px 850px
+    background-image: url("pix.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1285px 850px;
+
 }
-.button {
-    background-color: purple; 
-    border: none;
-    color: white;
-    padding: 13px 29px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-.button2 {border-radius: 8px;}
+
 .img-circle {
     border-radius: 50%;
 }
 
 h1 {
-	color: white; font-family: 'Poiret One', cursive; font-size: 40px
+	color: white; 
+  font-family: 'Poiret One', cursive; 
+  font-size: 40px;
 }
 
 h2 {
-	color:white; font-family: 'Poiret One', cursive;
+	color:white; 
+  font-family: 'Poiret One', cursive;
 }
 
 p {
@@ -74,12 +74,62 @@ p {
     margin-right: 200px;
     margin-left: 200px;
 }
-.space{
+
+.fa-twitter-square, 
+.fa-github,
+.fa-linkedin-square {
+    font-size: 80px;
+    display: inline-block;
+    color: #fff; 
     margin: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    height: 80px;
+}
+
+.fa-twitter-square:hover,
+.fa-github:hover,
+.fa-linkedin-square:hover {
+    color:#999966;
+}
+
+
+.email-button {
+  margin-top: 5px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #8a00e6;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 11px 15px 22px;
+  width: 85px 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fa-angle-double-right{
+    right: -20px;
+    opacity:0;
+    transition:0.5s;
 
 }
-	
-	
+  .button:hover span {
+      padding-right: 25px;
+  }
+
+  .button:hover .fa-angle-double-right {
+    opacity:1;
+
+}
 	

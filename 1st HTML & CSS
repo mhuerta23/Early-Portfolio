@@ -48,7 +48,7 @@ body {
     background-image: url("pix.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1285px 850px;
+    background-size: 100%;
 
 }
 
